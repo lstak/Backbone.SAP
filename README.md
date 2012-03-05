@@ -26,14 +26,17 @@ Include backbone-sap.js in your index.html:
 
 Now let's look at how you can use Backbone.SAP. The examples are based on the Flight data available on the [SAP Gateway demo system](http://www.sdn.sap.com/irj/sdn/index?rid=/webcontent/uuid/1051f6d9-e87a-2e10-d188-e2786c7878b1)
 
+To try out these examples, use Chrome with --disable-web-security command line option, to temporarily suppress the Same Origin Policy.
+
 ```js
 
-// You define a Fligth Model for items by extending Backbone.SP.Item
-// Required parameters are the SharePoint site and the name of the list
+// Define a Fligth Model for items by extending Backbone.SAP.Model
+// There are no paramaters required
 
 var Flight = Backbone.SAP.Model.extend();
 
-
+// Define a Flights Collection by extending Backbone.SAP.Collection
+// required parameters
 var Flights = Backbone.SAP.Collection.extend({
     model: Flight,
     url: 'https://gw.esworkplace.sap.com/sap/opu/odata/IWBEP/RMTSAMPLEFLIGHT_2/FlightCollection/'

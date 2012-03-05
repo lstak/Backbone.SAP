@@ -1,5 +1,5 @@
 ﻿/******************************************************************
-*  Backbone.SAP Gateway Collection and Model 
+*  Backbone.SAP Gateway proxy
 * 
 *  Author: Luc Stakenborg
 *  Date: Mar 6, 2012
