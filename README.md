@@ -3,7 +3,7 @@
 
 Backbone.SAP extends Backbone Models and Collections so you can easily work access business data in SAP systems through [SAP Gateway](http://www.sdn.sap.com/irj/sdn/gateway). The data exchange with SAP Gateway is based on the [OData](http://www.odata.org) AtomPub XML format. 
 
-* Usage
+## Usage ##
 
 Include backbone-sap.js in your index.html:
  
